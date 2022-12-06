@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Invoice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="bg-gray-900 h-screen w-screen flex justify-center overflow-auto">
+        <div class="bg-white w-full md:w-1/2 pb-20 h-auto flex flex-col border-b-8 border-b-blue-600 my-8" style="height: 60em;">
+            <div
+                class="w-full bg-blue-400 h-40 flex flex-col md:flex-row items-center md:items-start justify-between p-8 text-white">
+                <h1 class="capitalize font-bold text-center text-3xl">saleh farouq</h1>
+                <div class="flex flex-col items-center md:items-end text-sm w-full md:w-3/5"
+                    style="font-variant: small-caps;">
+                    <span class="leading-tight text-right md:text-right">Gwarzo Road | Bayero University Kano,
+                        Nigeria</span>
+                    <span class="leading-tight text-right md:text-right">https://github.com/mminuwaali |
+                        mminuwaali@gmail.com</span>
+                    <span class="leading-tight text-right md:text-right">+234 80 602 302 85 | +234 70 833 009 56</span>
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center p-6">
+                <h2 class="text-5xl font-thinbold">invoice</h2>
+                <span class="text-gray-400">#INV-001</span>
+                <span class="font-bold">07/12/2022</span>
+            </div>
+            <div class="flex border-b-2 border-b-gray-300 p-1 mx-8 text-sm gap-4">
+                <span class="capitalize text-gray-300 whitespace-nowrap w-36">due date:</span>
+                <span class="capitalize text-gray-500 w-full font-bold">12/12/2022</span>
+                <span class="capitalize text-gray-500 w-2/4 font-bold">bill no</span>
+            </div>
+            <div class="flex p-1 mx-8 text-sm gap-4">
+                <div class="capitalize text-gray-300 whitespace-nowrap w-36">net</div>
+                <div class="capitalize text-gray-500 w-full font-bold">21</div>
+                <div class="capitalize text-gray-500 w-2/4 flex flex-col items-start text-sm">
+                    <span class="font-bold capitalize">bayero university kano</span>
+                    <span class="capitalize leading-none">2022 gwarzo road</span>
+                    <span class="capitalize leading-none">kano state, nigeria</span>
+                    <span class="capitalize leading-none">+234 80 602 302 85</span>
+                </div>
+            </div>
+            <div class="mx-8 flex flex-col mt-6">
+                <div class="w-full bg-gray-200 border-b-2 border-blue-400 font-bold capitalize flex gap-1 items-center text-sm">
+                    <div class="w-8 h-8 flex items-center justify-center"></div>
+                    <div class="w-1/4">item</div>
+                    <div class="w-20">quantity</div>
+                    <div class="w-20">price</div>
+                    <div class="w-20">discount</div>
+                    <div class="w-20">tax</div>
+                    <div class="w-20">limitotal</div>
+                </div>
+                <div class="w-full capitalize flex gap-1 items-center text-sm">
+                    <div class="w-8 h-8 flex items-center justify-center">1</div>
+                    <div class="w-1/4">item</div>
+                    <div class="w-20">2</div>
+                    <div class="w-20">120</div>
+                    <div class="w-20"></div>
+                    <div class="w-20">2%</div>
+                    <div class="w-20">240.00</div>
+                </div>
+                <div class="w-full bg-gray-200 capitalize flex gap-1 items-center text-sm">
+                    <div class="w-8 h-8 flex items-center justify-center">2</div>
+                    <div class="w-1/4">item</div>
+                    <div class="w-20">14</div>
+                    <div class="w-20">175</div>
+                    <div class="w-20">-10%</div>
+                    <div class="w-20">5%</div>
+                    <div class="w-20">2,095.00</div>
+                </div>
+                <div class="w-full capitalize flex gap-1 items-center text-sm">
+                    <div class="w-8 h-8 flex items-center mb-auto justify-center">3</div>
+                    <div class="mx-auto"></div>
+                    <div class="flex flex-col w-2/3 md:w-1/3 border-b-2 border-b-blue-600 capitalize gap-1">
+                        <div class="w-full flex items-center justify-between font-bold"><span>subtotal:</span><span>N2,935.00</span></div>
+                        <div class="w-full flex items-center justify-between"><span>tax 1:</span><span>(2%) N4.80</span></div>
+                        <div class="w-full flex items-center justify-between"><span>tax 2:</span><span>(5%) N134.75</span></div>
+                        <div class="w-full flex items-center justify-between font-bold text-blue-500"><span>total:</span><span>N3,074.55</span></div>
+                        <div class="w-full flex items-center justify-between font-bold"><span>paid:</span><span>N0.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-start gap-4 text-sm px-8 mt-8" style="font-variant: small-caps;">
+                <div class="flex flex-col items-start font-bold">
+                        <span>invoice terms:</span>
+                    <p>saleh, thank you very much. We really appreciate your business.</p>
+                    <p>please sned the payment before the due date</p>
+                </div>
+                <div class="flex flex-col items-start font-bold">
+                    <span>payment: acc - 3133318936 first bank | 0265654531 gt bank</span>
+                </div>
+                <div class="flex flex-col items-start font-bold">
+                    <span class="text-gray-300">all prices are in NGN</span>
+                    <p>&copy; mminuwaali | all rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
